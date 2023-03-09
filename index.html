@@ -1,82 +1,102 @@
 <!DOCTYPE html>
 <html>
-<style>
-    body,
-    html {
-        height: 100%;
-        margin: 0;
-    }
-    
-    .bgimg {
-        background-image: url('launching.jpg');
-        height: 100%;
-        background-position: center;
-        background-size: cover;
-        position: relative;
-        color: white;
-        font-family: "Courier New", Courier, monospace;
-        font-size: 25px;
-    }
-    
-    .topleft {
-        position: absolute;
-        top: 0;
-        left: 16px;
-    }
-    
-    .bottomleft {
-        position: absolute;
-        bottom: 0;
-        left: 16px;
-    }
-    
-    .bottomright {
-        position: absolute;
-        bottom: 0;
-        right: 16px;
-    }
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>KLstudio</title>
+        <meta name="description" content="KLstudio">
+        <meta property="og:title" content="KLstudio">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://khangle.me">
+        <meta property="og:description" content="KLstudio"><meta name="robots" content="index">
 
-    .middle {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-    }
-    
-    hr {
-        margin: auto;
-        width: 40%;
-    }
-</style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-N42Q5PP1MC"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-<body>
-    <div class="bgimg">
-        <div class="topleft">
-            <p>KLstudio</p>
-        </div>
-        <div class="middle">
+          gtag('config', 'G-N42Q5PP1MC');
+        </script>
+        <style>
+            body,
+            html {
+                height: 100%;
+                margin: 0;
+            }
 
-            <div style="display:flex">
-                <div>
-                    <a tyle="background-color: #03a058;" href="https://apps.apple.com/developer/id1078541780">
-                        <img style="border-radius: 10px;" src="ios_qr.svg">
-                    </a>
-                </div>
-                <div style="width: 30px;"></div>
-                <div>
-                    <a tyle="background-color: #03a058;" href="https://play.google.com/store/apps/developer?id=KL+Studio">
-                        <img style="border-radius: 10px;" src="android_qr.svg">
-                    </a>
+            .bgimg {
+                background-image: url('launching.jpg');
+                height: 100%;
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+                font-size: 25px;
+            }
+
+            .topleft {
+                position: absolute;
+                top: 0;
+                left: 16px;
+            }
+
+            .bottomleft {
+                position: absolute;
+                bottom: 0;
+                left: 16px;
+            }
+
+            .bottomright {
+                position: absolute;
+                bottom: 0;
+                right: 16px;
+            }
+
+            .middle {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            hr {
+                margin: auto;
+                width: 40%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bgimg">
+            <div class="topleft">
+                <p>KLstudio</p>
+            </div>
+            <div class="middle">
+
+                <div style="display:flex">
+                    <div>
+                        <a tyle="background-color: #03a058;" href="https://apps.apple.com/developer/id1078541780">
+                            <img style="border-radius: 10px;" src="ios_qr.svg">
+                        </a>
+                    </div>
+                    <div style="width: 30px;"></div>
+                    <div>
+                        <a tyle="background-color: #03a058;" href="https://play.google.com/store/apps/developer?id=KL+Studio">
+                            <img style="border-radius: 10px;" src="android_qr.svg">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="bottomright">
-            <p><a style="color: white; text-decoration: none" href="https://khangle.me/privacy.html" target="_blank" rel="noopener">Privacy</a></p>
-        </div>
-        <div class="bottomleft">
-            <p><a style="color: white; text-decoration: none" href="mailto:contact@khangle.me" target="_blank" rel="noopener">Contact us</a></p>
-        </div>
-</body>
+            <div class="bottomright">
+                <p><a style="color: white; text-decoration: none" href="https://khangle.me/privacy.html" target="_blank" rel="noopener">Privacy</a></p>
+            </div>
+            <div class="bottomleft">
+                <p><a style="color: white; text-decoration: none" href="mailto:contact@khangle.me" target="_blank" rel="noopener">Contact us</a></p>
+            </div>
+    </body>
 
 </html>
