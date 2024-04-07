@@ -116,7 +116,7 @@
             position: absolute;
             top: 50%;
             border-radius: 1.5em;
-            box-shadow: 0 0 8px hsla(0deg, 0%, 0%, 75%);
+            box-shadow: 0 0 4px hsla(0deg, 0%, 0%, 75%);
             transition: 800ms ease-in-out;
             overflow: hidden;
         }
@@ -249,9 +249,9 @@
             height: 60px;
 
             .selected {
-                border-radius: 16px;
+                border-radius: 12px;
                 background: rgba(255, 255, 255, 0);
-                box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+                box-shadow: 0 0 4px hsl(0deg 0% 0% / 50%);
                 backdrop-filter: blur(7.4px);
                 -webkit-backdrop-filter: blur(7.4px);
                 border: 1px solid rgba(255, 255, 255, 0.2);
@@ -260,14 +260,14 @@
         }
 
         .selected2 {
-                border-radius: 16px;
-                background: rgba(255, 255, 255, 0);
-                box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-                backdrop-filter: blur(7.4px);
-                -webkit-backdrop-filter: blur(7.4px);
-                border: 1px solid rgba(255, 255, 255, 0.2);
-                padding: 0.3em 0.75em;
-            }
+            border-radius: 16px;
+            background: rgba(255, 255, 255, 0);
+            box-shadow: 0 0 4px hsl(0deg 0% 0% / 50%);
+            backdrop-filter: blur(7.4px);
+            -webkit-backdrop-filter: blur(7.4px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 0.3em 0.75em;
+        }
 
         @media (width>800px) {
             section {
@@ -344,13 +344,11 @@
                 </div>
                 <div class="group">
                     <a href="https://apps.apple.com/developer/id1078541780">
-                        <img class="selected2" alt=""
-                            style="width: 280px; filter: drop-shadow(0 1px 1px #5555557c);"
+                        <img class="selected2" alt="" style="width: 280px;"
                             src="qr_ios.png">
                     </a>
                     <a href="https://play.google.com/store/apps/developer?id=KL+Studio">
-                        <img class="selected2" alt=""
-                            style="width: 280px; filter: drop-shadow(0 1px 1px #5555557c);"
+                        <img class="selected2" alt="" style="width: 280px;"
                             src="qr_play.png">
                     </a>
                 </div>
@@ -377,7 +375,7 @@
     <div class="bottomright">
 
     </div>
-    
+
 </body>
 <script>
     let imgContainer = document.getElementById("img-container");
